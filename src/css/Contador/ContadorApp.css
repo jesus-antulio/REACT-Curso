@@ -1,0 +1,40 @@
+.contadorApp{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  background-color: #1b1b32;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.freecodecamp-logo-contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+
+.freecodecamp-logo{
+  height: 150px;
+}
+
+.contenedor-principal-contador{
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor-principal-contador h1{
+  color: white;
+  margin: 20px;
+  text-align: center;
+}

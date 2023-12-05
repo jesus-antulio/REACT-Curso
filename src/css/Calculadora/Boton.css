@@ -1,0 +1,32 @@
+.boton-contenedor{
+  height: 80px;
+  margin: 4px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #1b1b32;
+  border: 2px solid #1b1b32;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  /* -webkit-user-select: none; */
+}
+
+.boton-contenedor:hover{
+  border: 2px solid white;
+}
+
+.boton-contenedor:active{
+  transform: scale(0.9);
+}
+
+.operador{
+  background-color: #ff9a8d;
+  border: 2px solid #ff9a8d;
+  color: #1b1b32;
+  border-radius: 20px;
+}
